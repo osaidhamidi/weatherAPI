@@ -28,7 +28,7 @@ function performAction(event) {
         })
         .then(function () { retrieveData() })
 
-        .catch(error => console.log('Error:', error));
+        .catch(function(error) { console.log('Error:', error);} );
 }
 
 /* Function to GET Web API Data*/
